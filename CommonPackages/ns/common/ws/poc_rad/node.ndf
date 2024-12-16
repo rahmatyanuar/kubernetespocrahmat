@@ -3,7 +3,7 @@
 <Values version="2.0">
   <value name="node_type">restDescriptor</value>
   <value name="node_subtype">restv2Descriptor</value>
-  <value name="node_nsName">services.ws:poc_rad</value>
+  <value name="node_nsName">common.ws:poc_rad</value>
   <value name="node_pkg">CommonPackages</value>
   <value name="node_comment"></value>
   <value name="is_public">false</value>
@@ -13,7 +13,7 @@
   <record name="generalInfo" javaclass="com.wm.util.Values">
     <value name="specVersion">2.0</value>
     <value name="hostName">localhost:5555</value>
-    <value name="basePath">/rad/services.ws:poc_rad</value>
+    <value name="basePath">/rad/common.ws:poc_rad</value>
     <array name="schemes" type="value" depth="1">
       <value>http</value>
     </array>
@@ -63,7 +63,7 @@
   </record>
   <record name="restResources" javaclass="com.wm.util.Values">
     <record name="/common" javaclass="com.wm.util.Values">
-      <value name="nsName">services.ws:poc</value>
+      <value name="nsName">common.ws:poc</value>
       <value name="path">/common</value>
       <null name="suffix"/>
       <record name="operations" javaclass="com.wm.util.Values">
@@ -111,7 +111,7 @@
   <array name="generatedRestResources" type="record" depth="1">
   </array>
   <array name="resourceNodeNSNames" type="value" depth="1">
-    <value>services.ws:poc</value>
+    <value>common.ws:poc</value>
   </array>
   <Boolean name="addRootElementToResponse">true</Boolean>
 </Values>

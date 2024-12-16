@@ -3,17 +3,17 @@
 <Values version="2.0">
   <value name="node_type">restResource</value>
   <value name="node_subtype">unknown</value>
-  <value name="node_nsName">services.ws:poc</value>
+  <value name="node_nsName">common.ws:poc</value>
   <value name="node_pkg">CommonPackages</value>
   <value name="node_comment"></value>
   <value name="is_public">false</value>
   <record name="restResource" javaclass="com.wm.util.Values">
     <value name="resourceName">poc</value>
-    <value name="nsName">services.ws:poc</value>
+    <value name="nsName">common.ws:poc</value>
     <array name="operations" type="record" depth="1">
       <record javaclass="com.wm.util.Values">
         <value name="urlTemplate">/common</value>
-        <value name="serviceName">services.ws.poc_.services:responseService</value>
+        <value name="serviceName">common.ws.poc_.services:responseService</value>
         <array name="httpMethods" type="value" depth="1">
           <value>GET</value>
         </array>
@@ -25,7 +25,7 @@
   <value name="resourceName">poc</value>
   <Boolean name="modifiable">true</Boolean>
   <null name="srcdoctypename"/>
-  <value name="assocdoctypename">services.ws.poc_.docTypes:poc</value>
+  <value name="assocdoctypename">common.ws.poc_.docTypes:poc</value>
   <Boolean name="isjsonapi">false</Boolean>
   <array name="attributes" type="record" depth="1">
   </array>
